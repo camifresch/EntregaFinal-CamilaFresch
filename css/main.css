@@ -5,9 +5,58 @@
 
 .nav-link {
     color: #f0d22b;
+    transition-duration: 1s;
 }
 
 .navbar-toggler {
     color:#f0d22b;
-    
+
+}
+
+.nav-link:hover {
+    transform: scale(1);
+}
+
+body {
+    background-color: #f0d22b;
+}
+
+header {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    font-weight: lighter;
+    color: black;
+    animation-name: entrada.qs;
+    animation-duration: 2s
+}
+
+
+header img {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+@keyframes entrada.qs {
+    0% {
+        transform: translateY(-200)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
 }
