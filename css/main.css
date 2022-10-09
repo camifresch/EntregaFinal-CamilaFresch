@@ -33,6 +33,7 @@ header h1 {
     font-size: 70px;
     font-weight: lighter;
     color: black;
+    text-align: center;
 }
 
 
@@ -150,4 +151,12 @@ h3 {
 
 .button {
     align-content: center;
+}
+
+main h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
 }
