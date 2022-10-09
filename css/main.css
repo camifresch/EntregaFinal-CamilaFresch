@@ -53,6 +53,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
 
 }
 
@@ -67,10 +68,33 @@ footer img {
     justify-content: center;
 }
 
-img svg {
-    align-items: center !important;
+.carousel-item {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
 }
 
 .carousel-caption p {
+    font-weight: bold;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+map {
+    align-content: center;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    color: black;
+    align-items: center;
+}
+
+.contacto span {
     font-weight: bold;
 }
