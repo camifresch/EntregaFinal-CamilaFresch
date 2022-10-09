@@ -98,3 +98,56 @@ h3 {
 .contacto span {
     font-weight: bold;
 }
+
+.formulario {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-reserv {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1); 
+}
+
+  .form-signin-titulo,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="date"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+
+    h2 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+        font-weight: lighter;
+        color: black;
+        align-items: center;
+    }
+
+.button {
+    align-content: center;
+}
