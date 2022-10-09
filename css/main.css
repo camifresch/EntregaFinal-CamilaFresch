@@ -68,7 +68,7 @@ footer img {
     justify-content: center;
 }
 
-.carousel-item {
+.carousel.item.active {
     display: flex !important;
     flex-wrap: nowrap !important;
     justify-content: center !important;
