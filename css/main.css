@@ -160,3 +160,43 @@ main h1 {
     color: black;
     text-align: center;
 }
+
+.cuidados {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2fr 1fr);
+    grid-gap: 1px;
+    text-align: center;
+}
+
+.cuidados-ext {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.lista-cuidados {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    padding: 20px;
+}
+
+.retoque-ext {
+    grid-column: 2/2;
+    grid-row: 1;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.imgret {
+    width: 50%;
+}
+
+.cuidados-retoq {
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Dancing Script', cursive;
+}
