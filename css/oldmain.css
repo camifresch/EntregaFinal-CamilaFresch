@@ -1,0 +1,238 @@
+.logoppal {
+    width: 80px;
+    height: 80px;
+}
+
+.nav-link {
+    color: #f0d22b;
+    transition-duration: 1s;
+}
+
+.navbar-toggler {
+    color:#f0d22b;
+
+}
+
+.nav-link:hover {
+    transform: scale(1);
+    color: #fff;
+}
+
+body {
+    background-color: #f0d22b;
+}
+
+header {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+}
+
+
+header img {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+
+}
+
+footer img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.w-100 {
+    width: 500px !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* no se que cambiar en boostrap para que me centre la foto */
+.carousel-item.active {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+}
+
+.carousel-caption p {
+    font-weight: bold;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+map {
+    align-content: center;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    color: black;
+    align-items: center;
+}
+
+.contacto span {
+    font-weight: bold;
+}
+
+.formulario {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-reserv {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1); 
+}
+
+  .form-signin-titulo,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="date"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+
+    h2 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+        font-weight: lighter;
+        color: black;
+        align-items: center;
+    }
+
+.button {
+    align-content: center;
+}
+
+main h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+}
+
+.cuidados {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2fr 1fr);
+    grid-gap: 1px;
+    text-align: center;
+}
+
+.cuidados-ext {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.lista-cuidados {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    padding: 20px;
+}
+
+.retoque-ext {
+    grid-column: 2/2;
+    grid-row: 1;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.imgret {
+    width: 50%;
+}
+
+.cuidados-retoq {
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.cuidados-lift {
+    grid-column: 1/3;
+    margin: 30px 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .retoque-ext {
+        grid-column: 1/1;
+        grid-row: 2;
+    }
+
+    .cuidados-ext {
+        grid-column: 1/2;
+
+    }
+
+    .cuidados-lift {
+        grid-column: 1/3;
+    }
+
+    .carousel-caption {
+        display: grid !important;
+        justify-content: center !important;
+    }
+
+}
