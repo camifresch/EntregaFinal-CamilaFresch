@@ -1,0 +1,14 @@
+.nav-link {
+    color: $color-primario;
+    transition-duration: 1s;
+}
+
+.navbar-toggler {
+    color:$color-primario;
+
+}
+
+.nav-link:hover {
+    transform: scale(1);
+    color: #fff;
+}

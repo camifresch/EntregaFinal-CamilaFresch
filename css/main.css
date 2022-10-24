@@ -1,7 +1,3 @@
-.logoppal {
-  width: 80px;
-  height: 80px; }
-
 .nav-link {
   color: #f0d22b;
   transition-duration: 1s; }
@@ -12,6 +8,10 @@
 .nav-link:hover {
   transform: scale(1);
   color: #fff; }
+
+.logoppal {
+  width: 80px;
+  height: 80px; }
 
 body {
   background-color: #f0d22b; }

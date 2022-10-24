@@ -1,24 +1,11 @@
 $color-primario: #f0d22b;
 $color-secundario: #000000;
 
+@import "nav";
+
 .logoppal {
     width: 80px;
     height: 80px;
-}
-
-.nav-link {
-    color: $color-primario;
-    transition-duration: 1s;
-}
-
-.navbar-toggler {
-    color:$color-primario;
-
-}
-
-.nav-link:hover {
-    transform: scale(1);
-    color: #fff;
 }
 
 body {
