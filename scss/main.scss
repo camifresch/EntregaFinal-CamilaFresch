@@ -2,6 +2,7 @@ $color-primario: #f0d22b;
 $color-secundario: #000000;
 
 @import "nav";
+@import "footer";
 
 .logoppal {
     width: 80px;
@@ -39,21 +40,6 @@ p {
     font-size: 15px;
     font-weight: normal;
     color: $color-secundario;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
-
-    img {
-        max-width: 20px;
-        max-height: 20px;
-    }
-
 }
 
 .w-100 {
