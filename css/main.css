@@ -70,8 +70,9 @@ footer img {
 }
 
 /* no se que cambiar en boostrap para que me centre la foto */
-.d-block {
-    display: grid !important;
+.carousel-item.active {
+    display: flex !important;
+    flex-wrap: nowrap !important;
     justify-content: center !important;
 }
 
