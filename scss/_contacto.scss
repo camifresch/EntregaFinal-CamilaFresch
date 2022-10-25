@@ -1,0 +1,22 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+map {
+    @extend .button;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    color: $color-secundario;
+    align-items: center;
+}
+
+.contacto {
+    span {
+        font-weight: bold;
+}
+}

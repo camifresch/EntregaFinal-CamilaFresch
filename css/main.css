@@ -66,9 +66,6 @@ p {
   display: grid;
   grid-template-columns: 1fr 2fr; }
 
-map {
-  align-content: center; }
-
 h3 {
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
@@ -120,7 +117,7 @@ h2 {
   color: #000000;
   align-items: center; }
 
-.button {
+.button, map {
   align-content: center; }
 
 main h1 {
