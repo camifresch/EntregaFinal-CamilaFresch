@@ -1,4 +1,12 @@
 @media screen and (max-width: 768px) {
+    body {
+        main {
+            .cuidados {
+                grid-gap: 0;
+                grid-row-gap: 1em;
+            }
+        }
+    }
     .retoque-ext {
         grid-column: 1/1;
         grid-row: 2;
@@ -18,4 +26,45 @@
         justify-content: center !important;
     }
 
+}
+@media screen and (max-width: 576px) and ( max-width: 768px) {
+    body {
+        main {
+            .w-100 {
+                width: 340px !important;
+                display: flex !important;
+                justify-content: center !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) and ( max-width: 576px) {
+    body {
+    main {
+        .container {
+            flex-direction: column;
+            img {
+                width: 200px;
+            }
+        }
+        .w-100 {
+            width: 340px !important;
+            display: flex !important;
+            justify-content: center !important;
+        }
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            .map iframe {
+                width: 100%;
+            }
+
+        }
+        .cuidados {
+            grid-gap: 0;
+            grid-row-gap: 1em;
+        }
+    }
+}
 }

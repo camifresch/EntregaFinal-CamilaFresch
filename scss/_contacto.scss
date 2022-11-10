@@ -1,10 +1,19 @@
-.contenedor {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2em;
+        
+
+    }
 }
 
-map {
-    @extend .button;
+.map {
+    @extend .button;  
 }
 
 h3 {
@@ -18,5 +27,5 @@ h3 {
 .contacto {
     span {
         font-weight: bold;
-}
+    }
 }

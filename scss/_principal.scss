@@ -1,37 +1,64 @@
-.logoppal {
-    width: 80px;
-    height: 80px;
-}
+
 
 body {
     background-color: $color-primario;
-}
+    
+    .logoppal {
+        width: 80px;
+        height: 80px;
+    }
 
-header {
-    padding: $pad+6;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 
-    h1 {
-        font-family: 'Dancing Script', cursive;
-        font-size: 70px;
-        font-weight: lighter;
-        color: $color-secundario;
+    main {
+        padding: $pad+6;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        min-height: 70vh;
+        
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 70px;
+            font-weight: lighter;
+            color: $color-secundario;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1em;
+                font-weight: normal;
+                color: $color-secundario;
+                padding-top: 2em;
+            }
+        
+            img {
+                margin: 10px;
+                padding: $pad;
+               width: 20%;
+            }
+        }
+    }
+
+
+   
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         text-align: center;
+        padding: 10px;
+        margin-top: 0;
+        
+
+        img {
+            max-width: 20px;
+            max-height: 20px;
+        }
     }
-
-    img {
-        margin: 10px;
-        padding: $pad;
-        width: 300px;
-    }
-}
-
-
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    color: $color-secundario;
 }
